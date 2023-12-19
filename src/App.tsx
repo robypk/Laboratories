@@ -4,12 +4,12 @@ import Physics from "./assets/Components/Physics";
 function App() {
   return (
     <>
-      <div className=" w-screen">
+      <div>
         <Banner />
         <div className=" p-14">
           <Physics />
         </div>
-        <div className=" p-14">
+        <div className=" p-10">
           <Physics />
         </div>
       </div>
